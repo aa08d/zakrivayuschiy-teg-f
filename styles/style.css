@@ -3,7 +3,7 @@
   block-size: 100%;
 
   font-family: var(--font-family-primary), sans-serif;
-  font-weight: var(--font-weight-normal-primary);
+  font-variation-settings: 'wght' var(--font-weight-normal-primary);
   color: var(--color-primary);
 
   background-image: var(--background-image);
@@ -156,7 +156,7 @@
   transform: scaleX(1);
 }
 
-.button:focus  {
+.button:focus {
   outline: none;
   box-shadow: 2px 2px 0 var(--color-primary);
 }
