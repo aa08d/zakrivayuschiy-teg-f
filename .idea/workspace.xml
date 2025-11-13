@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0eaffc3-59f2-4891-a50f-e61932173203" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mobile-icon.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/svg/cassette.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/svg/favicon.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fonts/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/fonts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/animations.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/animations.css" afterDir="false" />
@@ -84,7 +95,7 @@
       <workItem from="1763044331735" duration="1693000" />
       <workItem from="1763046413122" duration="3469000" />
       <workItem from="1763056577055" duration="2244000" />
-      <workItem from="1763059740569" duration="2325000" />
+      <workItem from="1763059740569" duration="3752000" />
     </task>
     <servers />
   </component>
