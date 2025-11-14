@@ -44,6 +44,7 @@
   padding: 0;
   line-height: 100%;
   margin-block-start: 20px;
+  text-transform: uppercase;
 }
 
 .content {
@@ -260,13 +261,13 @@
 }
 
 @media (min-width: 768px) {
-  .footer__button {
+  .save__button {
     flex-direction: row;
     min-width: 335px;
     min-height: 55px;
   }
 
-  .footer__button svg {
+  .save__button svg {
     width: 21px;
     height: 21px;
     min-width: 21px;
