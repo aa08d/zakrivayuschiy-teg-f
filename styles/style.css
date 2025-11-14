@@ -92,7 +92,7 @@
   mix-blend-mode: hard-light;
 }
 
-@supports ((-webkit-text-stroke: 1px #fff) or (text-stroke: 1px #fff)){
+@supports ((-webkit-text-stroke: 1px #fff) or (text-stroke: 1px #fff)) {
   .image-logo {
     -webkit-text-stroke: 1px #fff;
     text-stroke: 1px #fff;
