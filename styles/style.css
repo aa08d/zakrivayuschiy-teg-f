@@ -122,10 +122,11 @@
 
 .card__footer {
   display: flex;
+  gap: 8px;
   justify-content: end;
   padding-bottom: 25px;
   padding-right: 25px;
-  align-items: center;
+  align-items: end;
 }
 
 .button {
@@ -186,6 +187,9 @@
 
 .card__icon-button {
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--background-color-primary);
   transition: outline 0.3s ease;
 }
@@ -195,8 +199,7 @@
 }
 
 .card__icon-button:focus-visible {
-  outline: none;
-  border: 2px solid var(--color-primary);
+  outline: 2px solid var(--color-primary);
 }
 
 .save__button-container {
