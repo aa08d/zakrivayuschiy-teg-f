@@ -17,41 +17,40 @@
   display: grid;
   align-items: center;
   justify-content: center;
-  gap: 20px;
 
   padding-block-start: var(--header-padding);
   padding-block-end: var(--header-padding);
   max-inline-size: 700px;
   margin: 100px auto;
-  margin-bottom: 96px;
+  margin-block-end: 96px;
 
   border: 2px solid var(--color-primary);
   background-color: var(--background-color-primary);
 
   text-align: center;
+  font-family: var(--font-family-secondary), fantasy;
 }
 
 .header__title {
-  display: grid;
-  gap: 20px;
-}
-
-.header__title-text {
-  font-family: var(--font-family-secondary), fantasy;
   font-size: var(--header-title-font-size);
+  margin: 0;
+  padding: 0;
   line-height: 100%;
-  text-transform: uppercase;
 }
 
 .header__subtitle {
   font-size: var(--header-subtitle-size);
+  margin: 0;
+  padding: 0;
+  line-height: 100%;
+  margin-block-start: 20px;
 }
 
 .content {
   display: grid;
   margin: 0 auto;
   gap: 52px;
-  max-width: 700px;
+  max-inline-size: 700px;
 }
 
 .card {
@@ -65,7 +64,7 @@
 
 .card__title {
   font-size: 18px;
-  font-weight: 715;
+  font-variation-settings: 'wght' var(--font-weight-bold-primary);
   line-height: 1.21;
 }
 
@@ -92,9 +91,10 @@
   mix-blend-mode: hard-light;
 }
 
-@supports(-webkit-text-stroke: 1px #fff) {
+@supports ((-webkit-text-stroke: 1px #fff) or (text-stroke: 1px #fff)){
   .image-logo {
     -webkit-text-stroke: 1px #fff;
+    text-stroke: 1px #fff;
     text-shadow: none;
   }
 }
@@ -156,7 +156,7 @@
   transform: scaleX(1);
 }
 
-.button:focus {
+.button:focus-visible {
   outline: none;
   box-shadow: 2px 2px 0 var(--color-primary);
 }
@@ -187,18 +187,24 @@
 .card__icon-button {
   border: none;
   background-color: var(--background-color-primary);
+  transition: outline 0.3s ease;
+}
+
+.card__like-button:focus {
+  outline: none;
 }
 
 .card__icon-button:focus-visible {
-  outline: 2px solid var(--color-primary);
+  outline: none;
+  border: 2px solid var(--color-primary);
 }
 
-.footer {
+.save__button-container {
   padding-block-start: 50px;
   padding-block-end: 100px;
 }
 
-.footer__button {
+.save__button {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -209,7 +215,7 @@
   margin: 0 auto;
 }
 
-.footer__button svg {
+.save__button svg {
   width: 28px;
   height: 28px;
 }
